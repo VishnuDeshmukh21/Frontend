@@ -38,6 +38,6 @@ const ShippingAddressFromStorage = localStorage.getItem('shippingAddress') ?
  const middleware = [thunk]
 
  const store =  createStore(reducer,initialState,
-  composeWithDevTools(applyMiddleware(...middleware)))
-
+//   composeWithDevTools(applyMiddleware(...middleware)))
+applyMiddleware(...middleware))
 export default store;
