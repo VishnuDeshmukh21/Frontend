@@ -95,7 +95,7 @@ function Header() {
                 to='/login'
                 className='text-green-700 px-3 py-2 rounded-md text-sm font-medium flex flex-col items-center'
               >
-                <i className='fas fa-user fa-lg'></i>
+                <i className='fas fa-user fa-lg py-1'></i>
                 <span className='hidden md:inline'>Login</span>
               </Link>
             )}
