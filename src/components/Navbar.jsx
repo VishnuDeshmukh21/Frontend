@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container mx-auto flex  items-center p-2 m-5 w-3/5">
         {/* Logo */}
         <div className="text-2xl font-bold mr-20">
-          Homble
+          Foodie
         </div>
 
         <div className="relative text-gray-600 ml-12 mr-12 w-1/2 pl-40 ">
